@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6acc7c6d-35db-4df3-8abe-4b1737fdb72a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EVA.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/clientes.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/clientes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/conversacion.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/conversacion.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/recuperar.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/recuperar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/registro.html" afterDir="false" />
-    </list>
+    <list default="true" id="6acc7c6d-35db-4df3-8abe-4b1737fdb72a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751074660654</updated>
-      <workItem from="1751074661543" duration="9367000" />
+      <workItem from="1751074661543" duration="9667000" />
     </task>
     <servers />
   </component>

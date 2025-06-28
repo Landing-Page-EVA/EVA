@@ -1,0 +1,24 @@
+# Ignorar archivos de sistema (Windows, Mac, etc.)
+Thumbs.db
+.DS_Store
+
+# Ignorar archivos de IDE
+.idea/
+.vscode/
+
+# Ignorar archivos temporales
+*.log
+*.tmp
+
+# Ignorar archivos de compilación
+node_modules/
+dist/
+
+# Ignorar archivos de configuración de editor
+*.swp
+
+# Ignorar archivos de backup de archivos de texto
+*~
+
+# No ignorar imágenes y archivos en assets/images
+!public/assets/images/
