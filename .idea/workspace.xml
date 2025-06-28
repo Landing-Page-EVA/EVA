@@ -5,40 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6acc7c6d-35db-4df3-8abe-4b1737fdb72a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Analisis inteligente.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Compañero virtual.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Descargar App store.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Descargar Play store.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/EVA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Facebook icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Instagram icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Mision.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Nosotros-.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Portada.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Vision.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/Youtube icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/asegura tu bienestar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/facebook-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/facil de usar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/images/google-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/scripts/login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/scripts/recuperar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/scripts/registro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/styles/clientes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/styles/conversacion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/styles/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/styles/registro.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/clientes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/conversacion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/recuperar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/registro.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/untitled.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EVA.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scripts/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/styles/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/styles/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/EVA.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/clientes.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/clientes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/conversacion.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/conversacion.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/recuperar.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/recuperar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/registro.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/registro.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,36 +39,37 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2z7GNZ1KYLqITB5nyulZIsJ9SaT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "disable.download.node.interpreter.editor.notification": "true",
-    "git-widget-placeholder": "develop",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Usuario/WebstormProjects/untitled/public/assets/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;disable.download.node.interpreter.editor.notification&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/registro&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Usuario/WebstormProjects/untitled/public&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Usuario\WebstormProjects\untitled\public" />
       <recent name="C:\Users\Usuario\WebstormProjects\untitled\public\assets\images" />
     </key>
   </component>
@@ -108,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1751074660654</updated>
-      <workItem from="1751074661543" duration="6947000" />
+      <workItem from="1751074661543" duration="8887000" />
     </task>
     <servers />
   </component>
