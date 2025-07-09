@@ -91,20 +91,38 @@ header nav {
 /* Sección principal */
 .main-section {
     background: url("Portada.png") no-repeat center center/cover;
-    height: 80vh;
+    min-height: 400px;
+    max-height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-    padding: 0 50px;
+    padding: 0 20px;
     background-size: cover;
     border-radius: 20px;
     overflow: hidden;
     width: 90%;
     margin: 0 auto;
 }
+
+@media (max-width: 768px) {
+    .main-section {
+        min-height: 300px;
+        padding: 0 10px;
+    }
+
+    .main-section h1 {
+        font-size: 1.8rem;
+    }
+
+    .main-section button {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+}
+
 
 .main-section h1 {
     font-size: 2.5rem;
