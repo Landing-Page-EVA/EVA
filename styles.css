@@ -376,3 +376,22 @@ header nav {
     justify-content: flex-start;
   }
 }
+
+.texto-completo {
+  display: inline;
+}
+
+.texto-resumido {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .texto-completo {
+    display: none;
+  }
+
+  .texto-resumido {
+    display: inline;
+  }
+}
+
