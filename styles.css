@@ -1,4 +1,3 @@
-/* Estilos base */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,32 +5,15 @@ body {
     background-color: #ffffff;
     color: #000000;
 }
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* Encabezado */
 header {
-    background-color: #ffffff;
-    color: black;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-}
-
-/* Agrupador de logo y botón */
-.header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    color: black;
     width: 100%;
 }
-
-/* Logo */
 header .logo {
     font-size: 1.5rem;
     font-weight: bold;
@@ -40,94 +22,67 @@ header .logo {
     gap: 10px;
     margin-left: 20px;
 }
-
 header .logo img {
     width: 90px;
     height: 90px;
 }
-
 .logo-link {
     display: flex;
     align-items: center;
     gap: 10px;
     text-decoration: none;
 }
-
 .logo-text {
     font-size: 1.8rem;
     font-weight: bold;
     color: #6a5ac9;
 }
-
-/* Navegación */
 header nav {
-    width: 100%;
+    margin-left: auto;
+    margin-right: 80px;
 }
-
+header nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+header nav a:hover {
+    text-decoration: underline;
+}
 .navigation ul {
     margin: 0;
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: flex-end;
-    margin-right: 80px;
 }
-
 .navigation ul li {
     margin: 0 15px;
 }
-
-.navigation ul li a {
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.navigation ul li a:hover {
-    text-decoration: underline;
-}
-
 .main-section {
     background: url("Portada.png") no-repeat center center/cover;
-    min-height: 400px;
-    max-height: 80vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: white;
-    padding: 0 20px;
+    padding: 0 50px;
     background-size: cover;
+    margin-top: 0px;
     border-radius: 20px;
     overflow: hidden;
     width: 90%;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-@media (max-width: 768px) {
-    .main-section {
-        min-height: 300px;
-        padding: 0 10px;
-    }
-
-    .main-section h1 {
-        font-size: 1.8rem;
-    }
-
-    .main-section button {
-        font-size: 0.9rem;
-        padding: 10px 20px;
-    }
-}
-
 .main-section h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
     font-weight: bold;
 }
-
 .main-section button {
     padding: 12px 30px;
     background-color: #6a5ac9;
@@ -137,12 +92,9 @@ header nav {
     cursor: pointer;
     border-radius: 5px;
 }
-
 .main-section button:hover {
     background-color: #5e4bb6;
 }
-
-/* Título principal */
 .main-title {
     font-size: 2rem;
     font-weight: bold;
@@ -151,8 +103,6 @@ header nav {
     display: block;
     text-align: center;
 }
-
-/* Contenedor de secciones */
 .container {
     display: flex;
     justify-content: space-between;
@@ -160,8 +110,6 @@ header nav {
     padding: 20px;
     flex-wrap: wrap;
 }
-
-/* Tarjetas de sección */
 .section {
     background: #fff;
     display: flex;
@@ -178,24 +126,21 @@ header nav {
     margin: 0 10px;
     height: auto;
 }
-
 .section img {
     margin-top: 20px;
     max-width: 100%;
     max-height: 180px;
     object-fit: contain;
     border-radius: 12px;
+    box-shadow: none;
     background: none;
 }
-
-/* Sección de íconos */
 .icons-section {
     display: flex;
     justify-content: center;
     margin-top: 40px;
     gap: 40px;
 }
-
 .icons-section .icon {
     text-align: center;
     background-color: white;
@@ -205,27 +150,22 @@ header nav {
     width: 280px;
     max-width: 300px;
 }
-
 .icon-description {
     font-size: 0.85rem;
     color: #333;
     margin-top: 10px;
     line-height: 1.4;
 }
-
 .icons-section .icon img {
     width: 40px;
     height: 40px;
 }
-
 .icons-section .icon h3 {
     margin-top: 10px;
     font-size: 1rem;
     font-weight: bold;
     color: #6a5ac9;
 }
-
-/* Pie de página */
 .footer {
     background-color: #6a5ac9;
     color: white;
@@ -234,40 +174,33 @@ header nav {
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 .footer .column {
     display: flex;
     flex-direction: column;
     gap: 10px;
     text-align: center;
 }
-
 .footer .column h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
-
 .footer .column a {
     color: white;
     text-decoration: none;
     font-size: 1rem;
 }
-
 .footer .column a:hover {
     text-decoration: underline;
 }
-
 .footer .social-media a {
     display: flex;
     align-items: center;
     gap: 8px;
 }
-
 .footer .social-media a img {
     width: 24px;
     height: 24px;
 }
-
 .footer .app-buttons a {
     display: flex;
     align-items: center;
@@ -278,13 +211,10 @@ header nav {
     color: #6a5ac9;
     border-radius: 5px;
 }
-
 .footer .app-buttons img {
     width: 130px;
     height: auto;
 }
-
-/* Chat */
 .chat-container {
     max-width: 600px;
     margin: 40px auto;
@@ -292,8 +222,8 @@ header nav {
     border-radius: 16px;
     padding: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
 }
-
 .chat-bubble {
     padding: 12px 18px;
     margin: 10px 0;
@@ -302,7 +232,6 @@ header nav {
     font-size: 1rem;
     line-height: 1.4;
 }
-
 .chat-bubble.eva {
     background-color: #e6e1fb;
     color: #333;
@@ -310,7 +239,6 @@ header nav {
     text-align: left;
     border-top-left-radius: 0;
 }
-
 .chat-bubble.user {
     background-color: #d0f0fd;
     color: #000;
@@ -319,60 +247,47 @@ header nav {
     margin-left: auto;
     border-top-right-radius: 0;
 }
-
-/* Menú hamburguesa */
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  cursor: pointer;
-  color: #6a5ac9;
-  margin-right: 20px;
+html {
+    scroll-behavior: smooth;
 }
 
-/* Estilos responsive */
 @media (max-width: 768px) {
-  .menu-toggle {
-    display: block;
-  }
-
-  .navigation {
-    display: none;
-    width: 100%;
-  }
-
-  .navigation.active {
-    display: block;
-  }
-
-  .navigation ul {
-    flex-direction: column;
-    background-color: white;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .navigation li {
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-  }
-
-  .navigation li a {
-    font-size: 1.2rem;
-    color: #000;
-    padding: 10px 20px;
-    display: block;
-  }
-
   header {
     flex-direction: column;
-    align-items: stretch;
+    align-items: flex-start;
   }
 
-  .navigation ul {
-    justify-content: flex-start;
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .main-section h1 {
+    font-size: 1.5rem;
+  }
+
+  .logo-text {
+    font-size: 1.3rem;
+  }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 1.5rem;
+  }
+
+  .navigation a {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer .column {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
