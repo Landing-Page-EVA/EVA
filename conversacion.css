@@ -4,13 +4,13 @@ body {
     margin: 0;
     padding: 40px;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px; /* Aumentado */
 }
 
 h1 {
     color: #6a5ac9;
     margin-bottom: 30px;
-    font-size: 2rem;
+    font-size: 2.5rem; /* Aumentado */
 }
 
 .chat-container {
@@ -27,12 +27,12 @@ h1 {
 }
 
 .chat-bubble {
-    font-size: 1.3rem;
-    padding: 16px 24px;
-    margin: 14px 0;
+    font-size: 1.5rem; /* Aumentado */
+    padding: 18px 28px; /* Aumentado */
+    margin: 16px 0; /* Aumentado */
     border-radius: 20px;
     max-width: 85%;
-    line-height: 1.5;
+    line-height: 1.6; /* Aumentado para mejor lectura */
 }
 
 .chat-bubble.eva {
@@ -59,16 +59,16 @@ h1 {
 }
 
 .input-area input {
-    font-size: 1.2rem;
-    padding: 14px;
+    font-size: 1.4rem; /* Aumentado */
+    padding: 16px; /* Aumentado */
     flex-grow: 1;
     border-radius: 8px;
     border: 1px solid #ccc;
 }
 
 .input-area button {
-    font-size: 1.2rem;
-    padding: 14px;
+    font-size: 1.4rem; /* Aumentado */
+    padding: 16px;
     background-color: #6a5ac9;
     color: white;
     border: none;
@@ -85,8 +85,8 @@ h1 {
 }
 
 .back-button button {
-    font-size: 1.2rem;
-    padding: 14px 24px;
+    font-size: 1.4rem; /* Aumentado */
+    padding: 16px 26px; /* Aumentado */
     background-color: #6a5ac9;
     color: white;
     border: none;
