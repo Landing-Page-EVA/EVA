@@ -88,7 +88,6 @@ header nav {
     text-decoration: underline;
 }
 
-/* Sección principal */
 .main-section {
     background: url("Portada.png") no-repeat center center/cover;
     min-height: 400px;
@@ -122,7 +121,6 @@ header nav {
         padding: 10px 20px;
     }
 }
-
 
 .main-section h1 {
     font-size: 2.5rem;
