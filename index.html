@@ -6,6 +6,28 @@
   <title>EVA</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+  <style>
+    /* Mostrar texto completo por defecto */
+    .texto-completo {
+      display: inline;
+    }
+
+    .texto-resumido {
+      display: none;
+    }
+
+    /* En móviles, mostrar solo el texto resumido */
+    @media (max-width: 768px) {
+      .texto-completo {
+        display: none;
+      }
+
+      .texto-resumido {
+        display: inline;
+      }
+    }
+  </style>
 </head>
 
 <body>
@@ -38,26 +60,42 @@
   <button onclick="window.location.href='conversacion.html'">Probar conversación</button>
 </section>
 
+<!-- Sección ACERCA con textos adaptables -->
 <div class="icons-section" id="acerca">
   <div class="icon">
     <img src="Nosotros-.png" alt="Icono 1">
     <h3>Nosotros</h3>
     <p class="icon-description">
-      EVA es una plataforma tecnológica que mejora la salud emocional de adultos mayores en centros geriátricos mediante inteligencia artificial empática, ofreciendo compañía, monitoreo y apoyo al personal de salud.
+      <span class="texto-completo">
+        EVA es una plataforma tecnológica que mejora la salud emocional de adultos mayores en centros geriátricos mediante inteligencia artificial empática, ofreciendo compañía, monitoreo y apoyo al personal de salud.
+      </span>
+      <span class="texto-resumido">
+        Nosotros EVA: Con IA empática, mejora la salud emocional de adultos mayores en geriátricos y apoya al personal.
+      </span>
     </p>
   </div>
   <div class="icon">
     <img src="Vision.png" alt="Icono 2">
     <h3>Visión</h3>
     <p class="icon-description">
-      Ser la plataforma líder en Latinoamérica para la asistencia emocional digital de adultos mayores, con inteligencia artificial empática y humana.
+      <span class="texto-completo">
+        Ser la plataforma líder en Latinoamérica para la asistencia emocional digital de adultos mayores, con inteligencia artificial empática y humana.
+      </span>
+      <span class="texto-resumido">
+        Visión EVA: Ser líder en Latinoamérica en asistencia emocional digital para adultos mayores con IA humana.
+      </span>
     </p>
   </div>
   <div class="icon">
     <img src="Mision.png" alt="Icono 3">
     <h3>Misión</h3>
     <p class="icon-description">
-      Brindar compañía emocional y apoyo al personal de salud mediante una plataforma accesible que detecta y previene el deterioro emocional en adultos mayores.
+      <span class="texto-completo">
+        Brindar compañía emocional y apoyo al personal de salud mediante una plataforma accesible que detecta y previene el deterioro emocional en adultos mayores.
+      </span>
+      <span class="texto-resumido">
+        Misión EVA: Brindar compañía emocional y apoyo al personal para detectar y prevenir el deterioro emocional en adultos mayores.
+      </span>
     </p>
   </div>
 </div>
@@ -120,10 +158,12 @@
     <a href="#"><img src="Descargar Play store.png" alt="Google Play"></a>
   </div>
 </footer>
+
 <script>
   document.getElementById('menu-toggle').addEventListener('click', function () {
     document.getElementById('nav-menu').classList.toggle('active');
   });
 </script>
+
 </body>
 </html>
