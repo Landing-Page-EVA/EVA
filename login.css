@@ -5,28 +5,30 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 40px;
+    font-size: 1.2rem; /* AUMENTADO: base del texto */
 }
 
 h1 {
     color: #6a5ac9;
     margin-bottom: 30px;
+    font-size: 2.2rem; /* AUMENTADO */
 }
 
 form {
     background-color: #fff;
-    padding: 30px;
+    padding: 40px; /* AUMENTADO */
     border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     width: 100%;
-    max-width: 400px;
+    max-width: 450px; /* AUMENTADO */
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px; /* AUMENTADO */
 }
 
 input {
-    padding: 10px;
-    font-size: 1rem;
+    padding: 14px; /* AUMENTADO */
+    font-size: 1.2rem; /* AUMENTADO */
     border: 1px solid #ccc;
     border-radius: 8px;
     width: 100%;
@@ -35,13 +37,13 @@ input {
 .form-buttons {
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    gap: 12px; /* AUMENTADO */
 }
 
 .form-buttons button {
     flex: 1;
-    padding: 12px;
-    font-size: 1rem;
+    padding: 16px; /* AUMENTADO */
+    font-size: 1.2rem; /* AUMENTADO */
     background-color: #6a5ac9;
     color: white;
     border: none;
@@ -54,14 +56,14 @@ input {
 }
 
 .forgot-password {
-    margin-top: 15px;
+    margin-top: 18px; /* AUMENTADO */
     text-align: center;
 }
 
 .forgot-password a {
     color: #6a5ac9;
     text-decoration: none;
-    font-size: 0.95rem;
+    font-size: 1.05rem; /* AUMENTADO */
 }
 
 .forgot-password a:hover {
