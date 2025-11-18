@@ -1,0 +1,142 @@
+/* === ESTILO GENERAL === */
+body {
+    margin: 0;
+    background: #f0f0ff;
+    font-family: 'Poppins', Arial, sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 100px); /* deja espacio para el header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+
+/* === TARJETA DE LOGIN (moderna y compacta) === */
+.login-container {
+    background: #ffffff;
+    padding: 55px 45px; /* tamaño visual perfecto */
+    border-radius: 20px;
+    max-width: 430px;
+    width: 100%;
+    box-shadow: 
+        0 10px 25px rgba(0, 0, 0, 0.05),
+        0 4px 8px rgba(0, 0, 0, 0.04);
+    transition: transform 0.25s ease;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+}
+
+.login-container h1 {
+    margin: 0 0 24px;
+    text-align: center;
+    color: #6a55ff;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+/* === FORMULARIO === */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.login-form label {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.login-form input {
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 2px solid #dedcff;
+    background-color: #fafaff;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.25s ease;
+}
+
+.login-form input:focus {
+    border-color: #7b57ff;
+    box-shadow: 0 0 0 3px rgba(123, 87, 255, 0.2);
+}
+
+
+/* === BOTÓN PRINCIPAL === */
+.login-form button[type="submit"] {
+    margin-top: 10px;
+    padding: 14px;
+    border: none;
+    border-radius: 14px;
+    background-color: #7b57ff;
+    color: white;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.login-form button[type="submit"]:hover {
+    background-color: #6544e6;
+    transform: translateY(-2px);
+}
+
+
+/* === LINK A REGISTRO === */
+.register-link {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+    color: #444;
+}
+
+.register-link a {
+    color: #7b57ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-link a:hover {
+    text-decoration: underline;
+}
+
+
+/* === BOTÓN VOLVER === */
+.back {
+    margin-top: 25px;
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 14px;
+    border: none;
+    background-color: #e7e4ff;
+    color: #5648c7;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.back:hover {
+    background-color: #d6d1ff;
+    transform: translateY(-2px);
+}
+
+
+/* === RESPONSIVE === */
+@media (max-width: 480px) {
+    .login-container {
+        padding: 40px 30px;
+        width: 100%;
+    }
+
+    .login-container h1 {
+        font-size: 28px;
+    }
+}
